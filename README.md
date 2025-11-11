@@ -1,6 +1,6 @@
 # 🌐 Personal Portfolio Website
 ## 🚀 Live Demo
-🔗 [Click here to visit my portfolio](https://<your-username>.github.io/portfolio/)
+🔗 [Click here to visit my portfolio](https://prajwalmundekar.github.io/Personal-Portfolio-/)
 This is my **personal portfolio website** built using **HTML, CSS, and JavaScript**.  
 It showcases my projects, skills, and contact information in a clean and responsive design.
 
