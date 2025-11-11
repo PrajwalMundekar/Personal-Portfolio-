@@ -663,7 +663,7 @@ header.navbar + div {
 /* Responsive */
 @media (max-width: 768px) {
   .projects-section {
-    padding: 80px 10px;
+    padding: 80px 0px;
   }
   .project-info h3 {
     font-size: 1.1rem;
