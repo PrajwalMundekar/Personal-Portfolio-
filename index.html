@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prajwal Mundekar Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+<!-- emailjs script -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "P0ie75vpGorokgjyw",
+      });
+    })();
+  </script>
+
+
+</head>
+
+<body>
+
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="logo">Prajwal<span>...</span></div>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- HERO / HOME SECTION -->
+  <header id="home" class="hero" style="margin-top: 80px; padding-top: 80px;">
+    <div class="container">
+      <div class="hero-left">
+        <p class="kicker">Hi, I’m</p>
+        <h1 class="name">Prajwal N. Mundekar</h1>
+        <p class="role">Angular Developer &amp; Front-end Freelancer</p>
+
+        <p class="intro">
+          I build clear, maintainable web apps using Angular, TypeScript and modern CSS.
+          <span id="typed" aria-live="polite"></span>
+        </p>
+
+        <div class="cta-row">
+          <a href="#projects" class="btn primary resume-btn" id="view-work">View Work</a>
+          <a href="#contact" class="btn outline resume-btn" id="contact-me"><i class="fa-solid fa-message-middle"></i>
+            Contact Me</a>
+          <a href="assets/Prajwal_M_WebDev_Resume.pdf" class="btn ghost resume-btn" download>
+            <i class="fa-solid fa-download"></i> Download Resume</a>
+        </div>
+
+        <div class="socials" aria-label="Social links">
+          <a href="https://github.com/PrajwalMundekar" target="_blank" rel="noopener" aria-label="GitHub"><i
+              class="fa-brands fa-github"></i> GitHub</a>
+          <a href="http://www.linkedin.com/in/prajwal-mundekar-a989b534a" target="_blank" rel="noopener"
+            aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+          <a href="https://www.instagram.com/prajwal_mundekar_45?igsh=YnEwODcxNzl6Y2V0" target="_blank" rel="noopener"
+            aria-label="Instagram"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        </div>
+      </div>
+
+      <div class="hero-right" aria-hidden="false">
+        <div class="profile-card" role="img" aria-label="Prajwal profile">
+          <!-- Replace the source with your real photo -->
+          <img src="assets/profilePic.png" alt="Prajwal Mundekar" class="profile-photo" />
+          <div class="profile-bio">
+            <h3>Prajwal</h3>
+            <p>Angular Developer</p>
+            <p class="small">Freelancer • UI-focused • Clean code</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Profile Image Popup -->
+  <div id="profile-popup" class="popup-overlay">
+    <div class="popup-content">
+      <img src="assets/profilePic.png" alt="Prajwal Mundekar large photo" />
+    </div>
+  </div>
+
+
+
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Hi, I’m <span class="highlight">Prajwal N. Mundekar</span>, an
+            <strong>Angular Developer</strong> and <strong>Frontend Freelancer</strong> passionate about building
+            clean, maintainable, and user-friendly web applications.
+          </p>
+          <p>
+            I enjoy turning ideas into reality using Angular, TypeScript, and modern web technologies.
+            My focus is on performance, scalability, and crafting interfaces that feel effortless.
+          </p>
+
+          <div class="about-details">
+            <div><strong>Experience:</strong> 1+ year (Freelancing)</div>
+            <div><strong>Specialty:</strong> Angular, JavaScript, TypeScript, RESTful API, CSS, Bootstrap, Tailwind CSS,
+              GIT, Responsive Design, </div>
+            <div><strong>Education:</strong> BCA (Bachlors Of Computer Application)</div>
+            <div><strong>Location:</strong> India</div>
+          </div>
+
+          <a href="#projects" class="btn-primary">View My Projects</a>
+        </div>
+
+        <div class="about-photo">
+          <img src="assets/prajwalPortfolio.png" alt="Prajwal photo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section" style="padding-top: 50px;">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+
+      <div class="projects-grid">
+
+        <a href="https://prajwalmundekar.github.io/Note-Script-/" target="_blank" class="project-card"
+          style="background-image: url('assets/notes2.jpg');">
+          <h3>Note-Script++</h3>
+          <p>Note Script++ is a modern, lightweight notes app built with HTML, CSS, and JavaScript. It lets you create,
+            edit, and delete notes instantly — all stored locally in your browser.</p>
+        </a>
+
+        <a href="https://prajwalmundekar.github.io/todo-app/" target="_blank" class="project-card"
+          style="background-image: url('assets/todo.jpeg');">
+          <h3>To-Do App</h3>
+          <p>A simple and responsive Todo App built using HTML, CSS, and JavaScript. This project helps you add, manage,
+            and remove tasks easily.</p>
+        </a>
+
+        <a href="https://prajwalmundekar.github.io/Weather-App/" target="_blank" class="project-card"
+          style="background-image: url('assets/weather2.jpg');">
+          <h3>Weather App</h3>
+          <p>A clean and interactive weather application that shows real-time temperature, humidity, and wind details
+            for any city.</p>
+        </a>
+
+        <a href=" https://prajwalmundekar.github.io/Bubble-game/" target="_blank" class="project-card"
+          style="background-image: url('assets/bubble1.jpg');">
+          <h3>Bubble Game</h3>
+          <p>An engaging bubble game where you hit the correct numbered bubble within 60 seconds to earn points. Fast,
+            fun, and challenging!</p>
+        </a>
+
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- contact section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <p>Got a question or want to work together? Feel free to reach out.</p>
+
+    <form class="contact-form" action="https://formspree.io/f/mjkjvrvz" method="post" >
+      <div class="form-group">
+        <input type="text" name="name" id="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" id="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="btn-send" onclick="sendMail()">Send Message</button>
+    </form>
+
+    <div class="social-links">
+      <a href="https://github.com/PrajwalMundekar" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="http://www.linkedin.com/in/prajwal-mundekar-a989b534a" target="_blank"><i
+          class="fab fa-linkedin"></i></a>
+      <a href="http://www.prajwalmundekar@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </section>
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
