@@ -529,12 +529,13 @@ header.navbar + div {
   .about-content {
     flex-direction: column-reverse;
     text-align: center;
-    margin: -25px;
+    margin: -50px;
+    
   }
   .about-photo img {
     width: 220px;
     height: 220px;
-    margin-right: 30px;
+    margin: 30px;
   }
 }
 
@@ -662,7 +663,7 @@ header.navbar + div {
 /* Responsive */
 @media (max-width: 768px) {
   .projects-section {
-    padding: 80px 30px;
+    padding: 80px 10px;
   }
   .project-info h3 {
     font-size: 1.1rem;
